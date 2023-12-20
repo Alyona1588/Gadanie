@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Soyuz Grotesk";
+    src: url(https://code.s3.yandex.net/pp-kids-web-course/020105/SoyuzGrotesk_Bold.woff) format(woff), 
+    url(https://code.s3.yandex.net/pp-kids-web-course/020105/SoyuzGrotesk_Bold.otf) format(opentype);
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url('https://code.s3.yandex.net/pp-kids-web-course/020105/background-space.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    font-family: "Soyuz Grotesk", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+    width: 90%;
+    max-width: 622px;
+    margin: 50px 0 24px;
+}
+
+.image {
+    object-fit: contain;
+    width: 90%;
+    max-width: 640px;
+}
+
+.emojis {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 622px;
+}
+
+.emoji {
+    font-size: 50px;
+}
